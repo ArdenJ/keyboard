@@ -11,8 +11,8 @@ const Controls = () => {
           <canvas height="90px" width="290px" />
         </div>
       </Visualiser>
-      <Counter title="number of keys" />
-      <Counter title="octave" />
+      <Counter title="keys / octave" />
+      <Counter title="octave no." />
     </ControlsContainer>
   )
 }

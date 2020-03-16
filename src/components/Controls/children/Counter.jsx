@@ -53,11 +53,11 @@ const TitleContainer = styled.div`
 
   padding: 0.4rem 0;
   position: absolute;
-  width: 7rem;
+  width: 7.6rem;
   top: 0;
   left: 0;
-  transform-origin: 60% 0%;
-  transform: rotate(-270deg) translateX(4.6rem);
+  transform-origin: 55% 0%;
+  transform: rotate(-270deg) translateX(4.2rem);
 
   h2 {
     font-size: 1rem;
