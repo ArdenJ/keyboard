@@ -43,5 +43,6 @@ const useOctaveState = () => {
 const useOctaveDispatch = () => {
   const ctx = useContext(OctaveNumberDispatchContext)
   if (!ctx) throw new Error('useOctaveDispatch must be used within an OctaveProvider')
+  return ctx
 }
 export { OctaveProvider, useOctaveState, useOctaveDispatch }

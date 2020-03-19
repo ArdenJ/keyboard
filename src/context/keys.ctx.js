@@ -43,6 +43,7 @@ const useKeyState = () => {
 const useKeyDispatch = () => {
   const ctx = useContext(KeyNumberDispatchContext)
   if (!ctx) throw new Error('useKeyDispatch must be used within an KeyProvider')
+  return ctx
 }
 
 export { KeyProvider, useKeyState, useKeyDispatch }
